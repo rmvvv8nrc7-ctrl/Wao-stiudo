@@ -9,7 +9,7 @@ document.querySelectorAll('#navLinks a').forEach(a => {
 document.getElementById('quoteForm').addEventListener('submit', function(e){
   e.preventDefault();
 
-  const whatsappNumber = '218915123959'; // استبدله برقمك بدون +
+  const whatsappNumber = '218915123959'; // 00218915123959 
   const name = document.getElementById('name').value.trim();
   const service = document.getElementById('service').value;
   const details = document.getElementById('details').value.trim();
